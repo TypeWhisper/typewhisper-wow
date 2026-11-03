@@ -4,6 +4,10 @@ Dictate into the World of Warcraft chat with [TypeWhisper](https://www.typewhisp
 
 Works in all World of Warcraft versions: Retail, Classic, Classic Era and Forever.
 
+![The cast bar while you dictate: a waveform while you speak, a filling bar while TypeWhisper transcribes, then Done](.github/cast-bar.gif)
+
+[Watch the video on YouTube](https://www.youtube.com/watch?v=hfFLMD8U0i0): the settings page, placing the cast bar and a test run.
+
 ## Install
 
 TypeWhisper for Windows installs the add-on for you: open **Settings › Advanced › Integrations**, turn on **World of Warcraft** and click **Install add-on**. TypeWhisper finds the game through Battle.net and copies the add-on into every installed version. If the game is running, type `/reload`.
