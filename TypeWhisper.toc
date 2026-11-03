@@ -7,6 +7,7 @@
 ## AddonCompartmentFunc: TypeWhisper_OnAddonCompartmentClick
 ## SavedVariables: TypeWhisperDB
 ## X-Website: https://www.typewhisper.com
+## X-Curse-Project-ID: 1781493
 
 Status.lua
 TypeWhisper.lua

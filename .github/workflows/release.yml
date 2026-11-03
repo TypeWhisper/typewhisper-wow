@@ -16,8 +16,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Packages the add-on as TypeWhisper/ (see .pkgmeta) and attaches the ZIP to a GitHub release.
-      # CurseForge and Wago need their own tokens (CF_API_KEY, WAGO_API_TOKEN) before they can be added.
+      # Packages the add-on as TypeWhisper/ (see .pkgmeta), attaches the ZIP to a GitHub release and uploads it to
+      # the CurseForge project named by X-Curse-Project-ID in TypeWhisper.toc.
       - uses: BigWigsMods/packager@v2
         env:
           GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
