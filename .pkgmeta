@@ -1,0 +1,5 @@
+package-as: TypeWhisper
+
+ignore:
+  - README.md
+  - .github

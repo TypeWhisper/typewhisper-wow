@@ -1,0 +1,23 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      # Packages the add-on as TypeWhisper/ (see .pkgmeta) and attaches the ZIP to a GitHub release.
+      # CurseForge and Wago need their own tokens (CF_API_KEY, WAGO_API_TOKEN) before they can be added.
+      - uses: BigWigsMods/packager@v2
+        env:
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
