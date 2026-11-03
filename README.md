@@ -12,6 +12,8 @@ Works in all World of Warcraft versions: Retail, Classic, Classic Era and Foreve
 
 TypeWhisper for Windows installs the add-on for you: open **Settings › Advanced › Integrations**, turn on **World of Warcraft** and click **Install add-on**. TypeWhisper finds the game through Battle.net and copies the add-on into every installed version. If the game is running, type `/reload`.
 
+The add-on is also on [CurseForge](https://www.curseforge.com/wow/addons/typewhisper), so the CurseForge app can install and update it.
+
 For a manual install, download `TypeWhisper-<version>.zip` from the [releases](https://github.com/TypeWhisper/typewhisper-wow/releases) and extract it into `World of Warcraft\<version>\Interface\AddOns\`.
 
 ## How it works
